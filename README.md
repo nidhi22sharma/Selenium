@@ -1,25 +1,9 @@
-my# Selenium Project
-
-This is a repository for Selenium testing.
-
-## Features
-- Automated testing for web applications.
-- Easy setup and integration.
-
-## Installation
-1. Clone the repository.
-2. Install dependencies using `pip install -r requirements.txt`.
-
-## Usage
-Run your Selenium tests with:
-```bash
-python test_script.py
-```
-
-## Contributing
-Contributions are welcome! Fork the repo, make changes, and submit a pull request.
-
-## License
-This project is licensed under the MIT License.
-
- 
+replace(replace(replace(replace(replace(replace(replace(
+'<PASTE-ONE-CARD-HTML-HERE>',
+'{{CARD_TAG}}', toUpper(items('Apply_to_each')?['Category'])),
+'{{CARD_CONTEXT}}', items('Apply_to_each')?['Context']),
+'{{CARD_TITLE}}', items('Apply_to_each')?['Title']),
+'{{CARD_BODY}}', items('Apply_to_each')?['Description']),
+'{{CARD_RESULT}}', items('Apply_to_each')?['Result']),
+'{{CARD_OWNER}}', items('Apply_to_each')?['Owner']),
+'{{CARD_IMPACT}}', items('Apply_to_each')?['Impact'])
