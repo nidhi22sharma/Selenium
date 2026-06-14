@@ -1,4 +1,4 @@
-*****<tr><td class="px" style="padding:14px 40px 0 40px;">
+*****<tr-><td class="px" style="padding:14px 40px 0 40px;">
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid #e2e8f0;border-left:4px solid #0b5cab;">
       <tr><td style="padding:18px 20px;">
         <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
@@ -15,4 +15,4 @@
         </div>
       </td></tr>
     </table>
-  </td></tr>*****
+  </td></tr->*****
